@@ -1,0 +1,28 @@
+﻿  main.cpp
+C:\Users\HP\source\repos\setMap\main.cpp(48,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xutility(3778,1): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "const _Ty" (или приемлемое преобразование отсутствует)
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\iterator(127,1): message : может быть "std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>> &std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>>::operator =(std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>> &&)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\iterator(127,1): message : или       "std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>> &std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>>::operator =(const std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>> &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\iterator(105,22): message : или       "std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>> &std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>>::operator =(FlowerBed &&)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\iterator(98,22): message : или       "std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>> &std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>>::operator =(const FlowerBed &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xutility(3778,1): message : при попытке сопоставить список аргументов "(std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>>, const _Ty)"
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xutility(3814): message : выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::_Copy_unchecked<_InIt,_OutIt>(_InIt,_InIt,_OutIt)"
+          with
+          [
+              _OutIt=std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>>,
+              _InIt=std::istream_iterator<std::string,char,std::char_traits<char>,ptrdiff_t>
+          ]
+C:\Users\HP\source\repos\setMap\main.cpp(145): message : выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::copy<std::istream_iterator<std::string,char,std::char_traits<char>,ptrdiff_t>,std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>>>(_InIt,_InIt,_OutIt)"
+          with
+          [
+              _OutIt=std::insert_iterator<std::list<FlowerBed,std::allocator<FlowerBed>>>,
+              _InIt=std::istream_iterator<std::string,char,std::char_traits<char>,ptrdiff_t>
+          ]
